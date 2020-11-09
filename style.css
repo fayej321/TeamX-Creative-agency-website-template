@@ -1,0 +1,268 @@
+/* Globa */
+/* ====================================== */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 3.5rem;
+    line-height: 55px;
+    color: #22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+    }
+
+h2{
+    line-height: 55px;
+    font-size: 2.2rem;
+    color:#22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 55px;
+    color:#22252e;
+    letter-spacing: 1px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #777474;
+    padding: 10px 0 20px;
+}
+
+/* Main Button */
+
+.btn {
+    background-color: #5a76fd;
+    box-shadow: 5px 10px 30px rgba(90, 118, 253, 0.5);
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 15px 50px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #5a62fd;
+    transition: all ease 0.3s;
+}
+
+/* Secondary Button */
+
+.btn-1 {
+    color: #5a76fd;
+    font-size: 0.9rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid #5a76fd;
+    border-radius: 5px;
+    padding: 15px 50px;
+    margin: 0;
+}
+
+
+.btn-1:hover {
+    background-color: #5a76fd;
+    color:#fff;
+    box-shadow: 5px 10px 30px rgba(90,118,253,0.5);
+    transition: all ease 0.3s;
+}
+
+/* Body */
+/* ====================================== */
+
+/* Logo & Menu */
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #fcfcfc;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: #1d1d1d;
+}
+
+.logo a{
+    color: #1d1d1d;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 20px rgba(90, 118, 253, 0.13);
+    z-index: 1;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    height: 40px;
+    line-height: 43px;
+    margin: 8px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #111111;
+    letter-spacing: 1px;
+}
+
+nav ul li a:hover {
+    background-color: #5a76fd;
+    color: #ffffff;
+    box-shadow: 5px 10px 30px rgba(90, 118, 253, 0.5);
+    transition: all ease 0.2s;
+}
+
+/* Slider */
+
+.slider {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: absolute;
+    left: 150px;
+    top: 250px;
+    width: 90%;
+}
+
+.main-text {
+    width: 500px;
+    margin: 20px;
+}
+
+/* Services */
+
+.services {
+    padding: 100px 0;
+    background-color: #fff;
+}
+
+.services-heading {
+    padding: 0 0 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.services-heading p{
+    width:50%;
+}
+
+.box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 20px 30px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:500px;
+    /* height: 500px; */
+    text-align: center;
+    box-shadow: 2px 2px 20px rgba(90,118,253,0.15);
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 20px;
+    padding: 30px 30px;
+}
+.box img{
+    height:100px;
+    margin:10px;
+}
+
+/* team */
+
+.team {
+    background-color: #fcfcfc;
+    padding: 100px 0;
+}
+
+.team-heading {
+    padding: 0 0 50px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.team .box p{
+    padding: 0;
+    margin: 0;
+}
+
+.team img{
+    height:300px;
+    width: 300px;
+    border-radius: 50%;
+    margin:10px;
+}
+
+#social {
+    border-radius: 2%;
+    width:80%;
+    height: 80%;
+    margin: 30px 0;
+}
+
+.team-heading p{
+    width:50%;
+}
+
+
+/* footer */
+
+footer{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 5%;
+    border-top: 1px solid rgba(167,167,167,0.2);
+}
+footer {
+    display: flex;
+    color:#5e5e5e;
+    justify-content: center;
+}
