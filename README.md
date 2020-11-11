@@ -2,4 +2,4 @@
 
 ###Project Preview
 
-https://fayej321.github.io/TeamX-Creative-agency-website-template/
+https://khanuxd.github.io/TeamX-Creative-agency-website-template/
